@@ -4,73 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Caesar+Dressing&family=Manrope:wght@300&family=Nunito:wght@200&family=Roboto+Slab:wght@200;400&family=Roboto:wght@100&family=Sawarabi+Mincho&family=Scope+One&family=Sofia+Sans:wght@100;200&display=swap" rel="stylesheet">
     <title>JB Developer</title>
 </head>
 <body>
-    
+    <div class="headersec1">
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              
-              <a class="nav-link" href="#">About Us</a>
-              <a class="nav-link" href="#">Services</a>
-              <a class="nav-link" href="#">Contact</a>
-              <a class="nav-link" href="#">Book a free meeting</a>
+    <nav class="header-nav">
+      <div>
+        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
+      </div>
+            <div>
+              <a class="nav-links" href="#">About Us</a>
+              <a class="nav-links" href="#">Services</a>
+              <a class="nav-links" href="#">Contact</a>
+              <a class="nav-links" class="nav-bookmeeting" href="#"><button class="btn">
+                <span class="btn__visible">Growth you buisness</span>
+                <span class="btn__invisible">Book a free meeting</span>
+            </button></a>
             </div>
-          </div>
-        </div>
+
       </nav>
 </header>
 <main>
-  <section>
-    <div class="pyramid-loader">
-      <div class="wrapper">
-        <span class="side side1"></span>
-        <span class="side side2"></span>
-        <span class="side side3"></span>
-        <span class="side side4"></span>
-        <span class="shadow"></span>
-      </div>  
+  <section class="section1">
+   
+    <div class="section1content">
+      <p class="main-phrase">Designing websites so you can get more clients</p>
+      <div class="loader"></div>
+      <p>Give your business the online advantage it deserves with our expert web design service.</p>
+    
+      <button class="btn">
+        <span class="btn__visible">Growth you buisness</span>
+        <span class="btn__invisible">Book a free meeting</span>
+    </button>
     </div>
-    <p>Give your business the online advantage it deserves with our expert web design service.</p>
-    <div>
-      <button>Book a free meeting</button>
-    </div>
+    <img src="./images/section1img.png" class="imgsection1" alt="">
+    
+  </div>
   </section>
     <section class="aboutus">
-      <img src="./images/imageface.png" alt="">
-      <p>As a freelance, I work independently and offer web design and development services to companies and individuals. My goal is to help you achieve your online presence goals by creating custom websites that are tailored to your unique needs.
-
-        I have industry experience and keep up with the latest design trends and technologies. My skills range from graphic design to coding to web development, allowing me to offer a full range of services to meet your needs. Whether you need a landing page or SEO services to make your site visible to all your customers.
-        
-        As a freelancer, I understand the importance of delivering projects on time and on budget. I work efficiently to ensure your website is up and running as quickly as possible without compromising quality. Once the site is finished, I provide ongoing support and maintenance to ensure your website continues to perform at its best.
-        
-        In short, I offer a personalized and professional approach to web design and development. I am committed to delivering exceptional results that will help your business succeed online. Contact me today to discuss your project and see how I can help you take your online presence to the next level.
-        </p>
+      
+      <article> <img src="./images/imageface.png" alt=""><div><p>As a freelance, I work independently and offer web design and development services to companies and individuals. My goal is to help you achieve your online presence goals by creating custom websites that are tailored to your unique needs. I have industry experience and keep up with the latest design trends and technologies. My skills range from graphic design to coding to web development, allowing me to offer a full range of services to meet your needs. Whether you need a landing page or SEO services to make your site visible to all your customers.</p></div></article>
+      
+      <article class="article2"><img src="./images/about us.png" alt=""><div><p>I understand the importance of delivering projects on time and on budget. I work efficiently to ensure your website is up and running as quickly as possible without compromising quality. Once the site is finished, I provide ongoing support and maintenance to ensure your website continues to perform at its best.
+        In short, I offer a personalized and professional approach to web design and development. I am committed to delivering exceptional results that will help your business succeed online. Contact me today to discuss your project and see how I can help you take your online presence to the next level.</p></div> </article>
 
     </section>
+   
     <section class="services">
-      <article>
+        <h2>Services</h2>
+      <div>
         <p>SEO</p>
+        <img src="./images/seo.png" alt="">
           <ul>
             <li>Keyword research</li>
             <li>Content creation</li>
             <li>Link building</li>
-            <li>Monitoring and analysis of the performance of your website.</li>
+            <li>Monitoring and analysis of your website.</li>
             <li>Images Optimization</li>
           </ul>
-          <button>Book a free meeting</button>
-      </article>
-      <article>
+          <button class="btn" style="display: flex; justify-content: center;">
+            <span class="btn__visible">Growth you buisness</span>
+            <span class="btn__invisible">Book a free meeting</span>
+        </button>
+      </div>
+      <div>
         <p>Landing page</p>
+        <img src="./images/sitio-web.png" alt="">
           <ul>
             <li>Custom landing page design</li>
             <li>Optimization for conversions</li>
@@ -79,10 +83,14 @@
             <li>Integration with marketing tools</li>
             <li>Incredible design and user experience</li>
           </ul>
-          <button>Book a free meeting</button>
-      </article>
-      <article>
+          <button class="btn" style="display: flex; justify-content: center;">
+            <span class="btn__visible">Growth you buisness</span>
+            <span class="btn__invisible">Book a free meeting</span>
+        </button>
+      </div>
+      <div>
         <p>Website Maintenance</p>
+        <img src="./images/web-maintenance.png" alt="">
           <ul>
             <li>Content updates</li>
             <li>Troubleshooting and errors</li>
@@ -91,55 +99,49 @@
             <li>C ontent maintenance</li>
             <li>Search Engine Optimization (SEO)</li>
           </ul>
-          <button>Book a free meeting</button>
-      </article>
-
-
+          <button class="btn" style="display: flex; justify-content: center;">
+            <span class="btn__visible">Growth you buisness</span>
+            <span class="btn__invisible">Book a free meeting</span>
+        </button>
+      </div>
     </section>
+
+
+    
     <section class="contact">
+      <div>
+        <h2>Contact</h2>
+        <p>Please don't hesitate to  reach out if you have any questions or feedback. You can contact us through the form below. Thank you for trust in us.</p>
+      </div>
       <form action="">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name and Surname">
+        <div >
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" placeholder="Name and Surname">
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="">
+          <label class="form-label">Email address</label>
+          <input type="email" class="form-control"  placeholder="name@example.com">
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Messagge</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="">
+          <label class="form-label">Messagge</label>
+          <textarea class="form-control"></textarea>
         </div>
       </form>
     </section>
 </main>
 <footer>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          
-          <a class="nav-link" href="#">About Us</a>
-          <a class="nav-link" href="#">Services</a>
-          <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link" href="#">Book a free meeting</a>
-        </div>
-      </div>
+  <nav>
+    <div>
+        <a href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
     </div>
   </nav>
   <div>
    <a href=""><img src="./images/instagramlogo.svg"
      class="footer-redsocial"></a>
     
-    <a href=""><img src="./images/fiverrlogo.png" alt="" class="footer-redsocial"></a>
+    <a href=""><img src="./images/fiverrlogo.png" alt=""  class="footer-redsocial"></a>
   </div>
-  <p>JB Developer 2023. All rights reserved</p>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>

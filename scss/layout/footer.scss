@@ -1,0 +1,43 @@
+@mixin flexbox($display, $direction, $wrap, $justify-content, $align-items){
+    display: $display;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+
+footer {
+  @include flexbox(flex, row, wrap, space-between, center);
+  border-radius: 35px;
+  margin: 10px;
+  height: 170px;
+
+  .header-icono {
+    @include flexbox(flex, row, wrap, center, center);
+    height: 150px;
+    width: 200px;
+    margin-right: 20px; // Agregamos este margen a la derecha para separar el logo de los iconos de redes sociales
+  }
+
+  
+  .footer-redsocial {
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px; // Agregamos este margen a la izquierda para separar los iconos de redes sociales del logo
+  
+    &:first-of-type {
+      margin-left: 0; // Eliminamos el margen izquierdo para el primer icono
+    }
+  
+    &:last-of-type {
+      margin-right: 0; // Eliminamos el margen derecho para el último icono
+    }
+  }
+}
+  

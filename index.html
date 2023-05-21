@@ -12,25 +12,27 @@
 </head>
 <body>
     <div class="headersec1">
-<header>
-    <nav class="header-nav">
-      <div>
-        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
-      </div>
-            <div>
-              <a class="nav-links" href="#">About Us</a>
-              <a class="nav-links" href="#">Services</a>
-              <a class="nav-links" href="#">Contact</a>
-              <a class="nav-links" class="nav-bookmeeting" href="#"><button class="btn">
-                <span class="btn__visible">Growth you buisness</span>
+      <header>
+        <div class="header-icono">
+          <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
+        </div>
+        <nav class="header-nav">
+          <div>
+            <a class="nav-links" href="#aboutus">About Us</a>
+            <a class="nav-links" href="#services">Services</a>
+            <a class="nav-links" href="#contact">Contact</a>
+            <a class="nav-links" class="nav-bookmeeting" href="#">
+              <button class="btn">
+                <span class="btn__visible">Growth your business</span>
                 <span class="btn__invisible">Book a free meeting</span>
-            </button></a>
-            </div>
-
-      </nav>
-</header>
+              </button>
+            </a>
+          </div>
+        </nav>
+      </header>
+      
 <main>
-  <section class="section1">
+  <section id="section1">
    
     <div class="section1content">
       <p class="main-phrase">Designing websites so you can get more clients</p>
@@ -46,17 +48,18 @@
     
   </div>
   </section>
-    <section class="aboutus">
+  <section id="aboutus">
       
-      <article> <img src="./images/imageface.png" alt=""><div><p>As a freelance, I work independently and offer web design and development services to companies and individuals. My goal is to help you achieve your online presence goals by creating custom websites that are tailored to your unique needs. I have industry experience and keep up with the latest design trends and technologies. My skills range from graphic design to coding to web development, allowing me to offer a full range of services to meet your needs. Whether you need a landing page or SEO services to make your site visible to all your customers.</p></div></article>
-      
-      <article class="article2"><img src="./images/about us.png" alt=""><div><p>I understand the importance of delivering projects on time and on budget. I work efficiently to ensure your website is up and running as quickly as possible without compromising quality. Once the site is finished, I provide ongoing support and maintenance to ensure your website continues to perform at its best.
-        In short, I offer a personalized and professional approach to web design and development. I am committed to delivering exceptional results that will help your business succeed online. Contact me today to discuss your project and see how I can help you take your online presence to the next level.</p></div> </article>
+    <article> <img src="./images/imageface.png" alt=""><div> <h2>About Us</h2><p>As a freelance, I work independently and offer web design and development services to companies and individuals. My goal is to help you achieve your online presence goals by creating custom websites that are tailored to your unique needs. I have industry experience and keep up with the latest design trends and technologies. My skills range from graphic design to coding to web development, allowing me to offer a full range of services to meet your needs. Whether you need a landing page or SEO services to make your site visible to all your customers.</p></div></article>
+    
+    <article class="article2"><img src="./images/about us.png" alt=""><div><p>I understand the importance of delivering projects on time and on budget. I work efficiently to ensure your website is up and running as quickly as possible without compromising quality. Once the site is finished, I provide ongoing support and maintenance to ensure your website continues to perform at its best.
+      In short, I offer a personalized and professional approach to web design and development. I am committed to delivering exceptional results that will help your business succeed online. Contact me today to discuss your project and see how I can help you take your online presence to the next level.</p></div> </article>
 
-    </section>
-   
-    <section class="services">
-        <h2>Services</h2>
+  </section>
+  <h2>Services</h2>
+
+    <section id="services">
+        
       <div>
         <p>SEO</p>
         <img src="./images/seo.png" alt="">
@@ -104,11 +107,9 @@
             <span class="btn__invisible">Book a free meeting</span>
         </button>
       </div>
+    </article>
     </section>
-
-
-    
-    <section class="contact">
+    <section id="contact">
       <div>
         <h2>Contact</h2>
         <p>Please don't hesitate to  reach out if you have any questions or feedback. You can contact us through the form below. Thank you for trust in us.</p>
@@ -126,7 +127,12 @@
           <label class="form-label">Messagge</label>
           <textarea class="form-control"></textarea>
         </div>
+        <button class="btn">
+          <span class="btn__visible">SEND</span>
+          <span class="btn__invisible"><img src="./images/send.png" alt=""></span>
+      </button>
       </form>
+      
     </section>
 </main>
 <footer>
@@ -135,8 +141,9 @@
         <a href="./index.html"><img src="./images/logo.png" alt="" class="header-icono"></a>
     </div>
   </nav>
+  <p>© 2023 JB Developer. All rights reserved.</p>
   <div>
-   <a href=""><img src="./images/instagramlogo.svg"
+   <a href=""><img src="./images/instagram.png"
      class="footer-redsocial"></a>
     
     <a href=""><img src="./images/fiverrlogo.png" alt=""  class="footer-redsocial"></a>

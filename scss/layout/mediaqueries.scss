@@ -1,6 +1,6 @@
 @media screen and (max-width: 415px) {
   body {
-    width: 200%; // Ocupa todo el ancho de la pantalla
+    width: 100%; // Ocupa todo el ancho de la pantalla
   }
 
   @mixin flexbox($display, $direction, $wrap, $justify-content, $align-items){

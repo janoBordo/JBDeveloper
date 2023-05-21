@@ -525,7 +525,7 @@ h2 {
 
 @media screen and (max-width: 415px) {
   body {
-    width: 200%; }
+    width: 100%; }
   .headersec1 {
     background: #d5efe4;
     background: linear-gradient(179deg, #d5efe4 0%, #33f8e3); }
